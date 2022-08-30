@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(238, 217, 194);
+}
+
+h1{
+    color:white;
+    text-align:center;
+    font-weight: normal;
+    font-size: 120px;
+    font-family: 'Gorditas', cursive;
+}
+figure {
+    margin-top: 25px;
+    margin-left:155px;
+    margin-right: 70px;
+    display:inline-table;
+    vertical-align:top;
+}
+
+    
+.logo {
+border-radius: 15px;
+width: 300px;
+padding: 5px;
+margin: 5px;
+}
+
+button {
+
+    border-radius: 15px;
+    border-color: antiquewhite;
+    border-width: 2px;
+    
+}
+
+figcaption {
+    color:rgb(165, 106, 106);
+    font-size: 28px;
+    font-weight: normal;
+    font-family: 'Gorditas', cursive;
+    font-style:italic;
+    text-align:center;
+    padding-top: 10%;
+}
