@@ -15,8 +15,38 @@ p {
   text-align: center;
 }
 
+.recipes-main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffc164;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Gorditas", cursive;
+}
+
+.homepage-link {
+  color: #6d3b34;
+  font-family: "Gorditas", cursive;
+  padding: 10px;
+  border-radius: 20px;
+  background: #ffc164;
+  opacity: 0.8;
+}
+.homepage-link:hover {
+  padding: 15px;
+}
+
 .row {
   margin-top: 50px;
+}
+.crepes-image {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+ul {
+  list-style: none;
 }
 footer {
   text-align: center;
