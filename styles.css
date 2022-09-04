@@ -9,6 +9,9 @@ h1 {
   font-size: 120px;
   font-family: "Gorditas", cursive;
 }
+h2 {
+  color: #6d3b34;
+}
 
 p {
   color: #6d3b34;
@@ -42,7 +45,7 @@ p {
 .row {
   margin-top: 50px;
 }
-.crepes-image {
+.image {
   width: 500px;
   height: auto;
   display: block;
