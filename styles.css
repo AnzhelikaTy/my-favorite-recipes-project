@@ -11,14 +11,23 @@ h1 {
 }
 h2 {
   color: #6d3b34;
+  font-family: "Anek Tamil", sans-serif;
 }
 
 p {
   color: #6d3b34;
   font-size: 22px;
   font-weight: normal;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Anek Tamil", sans-serif;
   text-align: center;
+}
+ul {
+  list-style: none;
+}
+ul,
+ol {
+  font-family: "Anek Tamil", sans-serif;
+  font-size: 18px;
 }
 
 .recipes-main {
@@ -45,15 +54,11 @@ p {
 .row {
   margin-top: 50px;
 }
-.image {
-  width: 500px;
-  height: auto;
-  display: block;
-  margin: 20px auto;
+p.tip {
+  font-family: "Anek Tamil", sans-serif;
+  font-size: 18px;
 }
-ul {
-  list-style: none;
-}
+
 footer {
   text-align: center;
   margin-top: 90px;
