@@ -9,7 +9,8 @@ h1 {
 }
  h2 {
   color: #6d3b34;
-  font-family: "Anek Tamil", sans-serif;
+  font-family: "Gorditas", cursive;
+  font-size: 35px;
 }
 
 p {
@@ -31,8 +32,9 @@ ol {
   margin-top: 50px;
 }
 p.tip {
-  font-family: "Anek Tamil", sans-serif;
+  font-family: "Gorditas", cursive;
   font-size: 18px;
+  
 }
 .navbar {
   margin-top: 10px;
@@ -43,7 +45,14 @@ p.tip {
  a {
   text-decoration: none;
  }
+.navbar-toggler {
+  color:#FFC164;
+}
 
+.nav-link {
+  color:#6d3b34;
+  font-family: "Gorditas", cursive;
+}
 
 footer {
   text-align: center;
