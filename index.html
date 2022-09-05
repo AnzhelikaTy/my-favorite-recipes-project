@@ -6,8 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Recipes by Anzhelika Susemcik</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,40 +23,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="container mt-4 border border-light rounded shadow-lg">
-        <h1>My Favorite Recipes</h1>
-        <div class="row">
-            <div class="col-sm-4">
-                <a href="/crepes.html"><img class="img-fluid w-100 p-4 border border-light rounded shadow-sm"
-                        src="/images/crepes.jpg" alt="Crepes with berries and whipped cream"
-                        title="Click me for recipe!"></a>
-                <p class="p-1">Easy and Healthy <strong>Crepes</strong> for your breakfast</p>
+    <div class="container mt-4">
+        <h1 class="text-center p-2">My Favorite Recipes</h1>
+        <div class="container mt-4 p-4 border border-light rounded shadow-lg">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <a href="/crepes.html"><img src="/images/crepes.jpg" class="d-block w-100 rounded-2"
+                                alt="Crepes with berries and whipped cream" title="Click me for recipe!">
+                            <div class="carousel-caption">
+                                <p class="background bg-light rounded-2" style="--bs-bg-opacity: .7;">Easy and Healthy
+                                    Crepes for
+                                    breakfast</p>
+                        </a>
+                    </div>
+                    </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <a href="/spaghetti.html"><img src="/images/beef.jfif" class="d-block w-100 rounded-2"
+                            alt="Spaghetti sauce with beef" title="Click me for recipe!">
+                        <div class="carousel-caption">
+                            <p class="background bg-light rounded-2" style="--bs-bg-opacity: .7;">Spaghetti Sauce
+                                with
+                                Beef for
+                                lunch</p>
+                    </a>
+                </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="/cod.html"><img src="/images/cod.jpg" class="d-block w-100 rouned"
+                        alt="Cod with tomatoes garnished with lemon" title="Click me for recipe!">
+                    <div class="carousel-caption">
+                        <p class="background bg-light rounded-2" style="--bs-bg-opacity: .7;">Delicious Cod in
+                            tomatoes with
+                            Wine for dinner</p>
+                </a>
 
             </div>
-            <div class="col-sm-4">
-                <a href="/spaghetti.html"><img class="img-fluid w-100 p-4 border border-light rounded shadow-sm"
-                        src="/images/beef.jfif" alt="Spaghetti with beef in tomato sauce"
-                        title="Click me for recipe!"></a>
-                <p class="p-1"><strong>Spaghetti</strong> Sauce with <strong>Beef</strong> for your lunch</p>
-            </div>
 
-            <div class="col-sm-4">
-
-                <a href="/cod.html"><img class="img-fluid w-100 p-4 border border-light rounded shadow-sm"
-                        src="/images/cod.jpg" alt="Cod with cherry tomatoes on the plate garnished with lemon"
-                        title="Click me for recipe!"></a>
-                <p class="p-1">Delicious <strong>Cod</strong> in tomatoes with Wine for your dinner</p>
-            </div>
         </div>
-
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div>
     </div>
     <footer><a href="https://github.com/AnzhelikaTy/odin-recipes-new.git" target="_blank">Open-source code</a> by
         <strong>Anzhelika
             Susemcik</strong>
     </footer>
+
 </body>
 
 </html>
