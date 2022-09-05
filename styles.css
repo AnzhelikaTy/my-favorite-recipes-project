@@ -84,8 +84,9 @@ footer {
 
 @media (max-width: 576px){
   h1 {
-    font-size: 40px;
-      }
+    font-size: 48px;
+  
+ }
 .caption {
     margin: 0 auto;
 
