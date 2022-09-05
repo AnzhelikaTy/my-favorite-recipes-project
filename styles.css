@@ -87,8 +87,12 @@ footer {
     font-size: 40px;
       }
 .caption {
-  font-size: 15px;
-  margin: 0 auto;
-font-weight: 700;
+    margin: 0 auto;
+
   }
+  .carousel-item img {
+  width: 100% !important;
+  height: auto;
+  margin: 0 auto;
+}
 }
