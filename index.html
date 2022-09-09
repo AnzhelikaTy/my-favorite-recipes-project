@@ -28,7 +28,7 @@
 
 <body>
     <div class="container mt-4">
-        <h1 class="text-center p-2">My Favorite Recipes</h1>
+        <h1 class="text-center p-2  border border-light rounded shadow-lg">My Favorite Recipes</h1>
         <div class="container mt-4 p-4 border border-light rounded shadow-lg">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -77,18 +77,53 @@
             </div>
 
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
     </div>
     </div>
+
+    <div class="container all-recipes p-4 border border-light rounded shadow-lg">
+        <div class="row">
+            <div class="col-sm-6"><a href="/crepes.html"><img src="/images/crepes.jpg" width="300"
+                        class="rounded d-block mx-auto" alt="Crepes with berries and whipped cream"
+                        title="Click me for recipe!">
+                    <h3>Easy and Healthy Crepes</h3>
+                </a>
+            </div>
+
+            <div class="col-sm-6"><a href="/spaghetti.html"><img src="/images/beef.jfif" width="300"
+                        class="rounded d-block mx-auto" alt="Spaghetti sauce with beef" title="Click me for recipe!">
+                    <h3>Spaghetti Sauce
+                        with
+                        Beef</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6"><a href="/cod.html"><img src="/images/cod.jpg" width="300"
+                        class="rounded d-block mx-auto" alt="Cod with tomatoes garnished with lemon"
+                        title="Click me for recipe!">
+                    <h3>Cod in
+                        tomatoes with
+                        Wine</h3>
+                </a>
+            </div>
+            <div class="col-sm-6"><img src="/images/main.png" width="400" class="rounded d-block mx-auto">
+                <h3>One more Recipe</h3>
+            </div>
+        </div>
+
     </div>
+
     <footer><a href="https://github.com/AnzhelikaTy/odin-recipes-new.git" target="_blank">Open-source code</a> by
         <strong>Anzhelika
             Susemcik</strong>
