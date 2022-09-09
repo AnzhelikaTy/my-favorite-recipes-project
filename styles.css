@@ -1,29 +1,44 @@
 body {
-background-color: #efdcad7b;
+  background-color: #efdcad7b;
 }
 
 h1 {
-   color: #cf8d2bda;
+  color: #cf8d2bda;
   font-size: 100px;
   font-weight: 700;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
- h2 {
+h2 {
   color: #6d3b34;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 40px;
   font-weight: 700;
 }
 
+.all-recipes {
+  margin-top: 100px;
+}
+h3 {
+  margin-top: 10px;
+  text-align: center;
+  color: #6d3b34;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  padding: 15px;
+}
+h3:hover {
+  background-color: rgba(255, 255, 255, 0.378);
+  border-radius: 20px;
+}
 p {
   color: #6d3b34;
   font-size: 22px;
   font-family: "Anek Tamil", sans-serif;
   text-align: center;
 }
-  ul {
-    list-style-type: none;
-  }
+ul {
+  list-style-type: none;
+}
 
 ul,
 ol {
@@ -34,27 +49,26 @@ ol {
   margin-top: 50px;
 }
 p.tip {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 25px;
   font-weight: 600;
-  
 }
 .navbar {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   background-color: #efe7d0;
-  }
- a {
+}
+a {
   text-decoration: none;
- }
+}
 .navbar-toggler {
-  color:#FFC164;
+  color: #ffc164;
 }
 
 .nav-link {
-  color:#6d3b34;
-  font-family: 'Dancing Script', cursive;
+  color: #6d3b34;
+  font-family: "Dancing Script", cursive;
   font-size: 30px;
 }
 
@@ -74,26 +88,23 @@ footer {
   max-width: 450px;
   display: block;
   margin: 0 auto;
-    }
+}
 .caption {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 30px;
   font-weight: 700;
 }
 
-
-@media (max-width: 576px){
+@media (max-width: 576px) {
   h1 {
     font-size: 48px;
-  
- }
-.caption {
+  }
+  .caption {
     margin: 0 auto;
-
   }
   .carousel-item img {
-  width: 100% !important;
-  height: auto;
-  margin: 0 auto;
-}
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto;
+  }
 }
