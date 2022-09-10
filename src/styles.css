@@ -1,7 +1,8 @@
-body {
-  background-color: #efdcad7b;
+.container-carousel,
+.all-recipes,
+.container-recipe {
+  background-color: antiquewhite;
 }
-
 h1 {
   color: #cf8d2bda;
   font-size: 100px;
